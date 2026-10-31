@@ -5,7 +5,7 @@
 # 🛡️ Awesome Column-Level Data Security 🔐
 
 <a href="https://github.com/ishandutta2007/Awesome-Awesome-Aweoome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-<a href="https://github.com/ishandutta2007/Awesome-Column-Level-Data-Security/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Column-Level-Data-Security?style=social" alt="GitHub Stars"/></a>
+<a href="https://github.com/ishandutta2007/Awesome-Column-Level-Data-Security/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Column-Level-Data-Security?style=social" alt="GitHub_Stars"/></a>
 <a href="https://github.com/ishandutta2007/Awesome-Column-Level-Data-Security/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Column-Level-Data-Security?style=social" alt="GitHub Forks"/></a>
 <a href="https://github.com/ishandutta2007/Awesome-Column-Level-Data-Security/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Column-Level-Data-Security?style=flat-square&color=blue" alt="Open Issues"/></a>
 <a href="https://github.com/ishandutta2007/Awesome-Column-Level-Data-Security/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License"/></a>
@@ -69,93 +69,93 @@ The market is **moderately fragmented** rather than winner-take-all: high-scale 
 
 ## 💻 Open-Source GitHub Projects 🚀
 
-The open-source projects below are sorted by GitHub popularity (descending star count). Each repository provides native column masking, policy administration, transparent database encryption, or tokenization.
+The open-source projects below are sorted by GitHub popularity (descending Stars_Count). Each repository provides native column masking, policy administration, transparent database encryption, or tokenization.
 
-### 1. **[Apache ShardingSphere](https://github.com/apache/shardingsphere)** [![GitHub stars](https://img.shields.io/github/stars/apache/shardingsphere?style=social&color=white)](https://github.com/apache/shardingsphere/stargazers)
+### 1. **[Apache ShardingSphere](https://github.com/apache/shardingsphere)** [![GitHub_Stars](https://img.shields.io/github/stars/apache/shardingsphere?style=social&color=white)](https://github.com/apache/shardingsphere/stargazers)
 * **Description**: Distributed database ecosystem offering transparent SQL rewriting, **transparent column data encryption** (AES, RC4) at rest, and **dynamic query-time data masking** (MD5, first-N/last-M masking) across MySQL, PostgreSQL, Oracle, and SQL Server via JDBC or Proxy.
 * **Tech Stack**: Java
 * **License**: Apache-2.0
 * **Best For**: Applications needing transparent client/proxy-side column encryption and dynamic query masking without rewriting business code.
 
-### 2. **[Microsoft Presidio](https://github.com/microsoft/presidio)** [![GitHub stars](https://img.shields.io/github/stars/microsoft/presidio?style=social&color=white)](https://github.com/microsoft/presidio/stargazers)
+### 2. **[Microsoft Presidio](https://github.com/microsoft/presidio)** [![GitHub_Stars](https://img.shields.io/github/stars/microsoft/presidio?style=social&color=white)](https://github.com/microsoft/presidio/stargazers)
 * **Description**: Enterprise-grade SDK and API for sensitive data (PII) detection, column de-identification, and anonymization. Features customizable recognizers (regex, NLP/spacy, transformers) and column transformers (hash, encrypt, redact, replace, mask).
 * **Tech Stack**: Python, Go, C#
 * **License**: MIT
 * **Best For**: Data engineering pipelines and automated ETL workflows needing accurate PII detection and column masking before ingestion.
 
-### 3. **[Greenmask](https://github.com/GreenmaskIO/greenmask)** [![GitHub stars](https://img.shields.io/github/stars/GreenmaskIO/greenmask)](https://github.com/GreenmaskIO/greenmask/stargazers)
+### 3. **[Greenmask](https://github.com/GreenmaskIO/greenmask)** [![GitHub_Stars](https://img.shields.io/github/stars/GreenmaskIO/greenmask)](https://github.com/GreenmaskIO/greenmask/stargazers)
 * **Description**: Logical database dump, anonymization, and restoration utility. Features deterministic transformations, database subsetting, dynamic parameters across related columns, and pg_dump/pg_restore compatibility.
 * **Tech Stack**: Go
 * **License**: Apache-2.0
 * **Best For**: Teams needing safe, sanitized, and referentially intact PostgreSQL database clones for staging, dev, and test environments.
 
-### 4. **[Sagacity SQLToy](https://github.com/sagframe/sagacity-sqltoy)** [![GitHub stars](https://img.shields.io/github/stars/sagframe/sagacity-sqltoy?style=social&color=white)](https://github.com/sagframe/sagacity-sqltoy/stargazers)
+### 4. **[Sagacity SQLToy](https://github.com/sagframe/sagacity-sqltoy)** [![GitHub_Stars](https://img.shields.io/github/stars/sagframe/sagacity-sqltoy?style=social&color=white)](https://github.com/sagframe/sagacity-sqltoy/stargazers)
 * **Description**: Java smart ORM framework featuring built-in runtime data masking and desensitization across 25+ databases (auto-dialect adaptation), sharding, and multi-tenancy.
 * **Tech Stack**: Java
 * **License**: Apache-2.0
 * **Best For**: Java developers wanting transparent database-level column desensitization and masking at the ORM/data access layer.
 
-### 5. **[Apache Ranger](https://github.com/apache/ranger)** [![GitHub stars](https://img.shields.io/github/stars/apache/ranger?style=social&color=white)](https://github.com/apache/ranger/stargazers)
+### 5. **[Apache Ranger](https://github.com/apache/ranger)** [![GitHub_Stars](https://img.shields.io/github/stars/apache/ranger?style=social&color=white)](https://github.com/apache/ranger/stargazers)
 * **Description**: The industry standard for centralized security policy administration and auditing in Hadoop/Spark ecosystems. Provides fine-grained **column masking policies**, row-level filtering, and audit logging for Spark SQL, Hive, Trino, and Kafka.
 * **Tech Stack**: Java
 * **License**: Apache-2.0
 * **Best For**: Enterprises managing big data lakes (Spark, Hive, Trino) wanting centralized ABAC/RBAC policy enforcement and column masking.
 
-### 6. **[Blind Index](https://github.com/ankane/blind_index)** [![GitHub stars](https://img.shields.io/github/stars/ankane/blind_index?style=social&color=white)](https://github.com/ankane/blind_index/stargazers)
+### 6. **[Blind Index](https://github.com/ankane/blind_index)** [![GitHub_Stars](https://img.shields.io/github/stars/ankane/blind_index?style=social&color=white)](https://github.com/ankane/blind_index/stargazers)
 * **Description**: Secure, searchable column encryption for Rails and SQL databases. Computes blind indexes to query encrypted columns without decrypting them in SQL queries, preventing leaks from database memory dumps.
 * **Tech Stack**: Ruby / Rails
 * **License**: MIT
 * **Best For**: Web applications requiring searchable field- and column-level encryption for sensitive columns like emails or SSNs.
 
-### 7. **[pg-anonymizer](https://github.com/rap2hpoutre/pg-anonymizer)** [![GitHub stars](https://img.shields.io/github/stars/rap2hpoutre/pg-anonymizer?style=social&color=white)](https://github.com/rap2hpoutre/pg-anonymizer/stargazers)
+### 7. **[pg-anonymizer](https://github.com/rap2hpoutre/pg-anonymizer)** [![GitHub_Stars](https://img.shields.io/github/stars/rap2hpoutre/pg-anonymizer?style=social&color=white)](https://github.com/rap2hpoutre/pg-anonymizer/stargazers)
 * **Description**: Command-line tool and runner to export sanitized and anonymized PostgreSQL databases. Uses Faker rules to replace personal identity columns in SQL dumps without requiring database modifications.
 * **Tech Stack**: Node.js / JavaScript
 * **License**: MIT
 * **Best For**: Node.js and CI/CD pipelines requiring rapid database dump sanitization before loading into dev containers.
 
-### 8. **[pg_permissions](https://github.com/cybertec-postgresql/pg_permissions)** [![GitHub stars](https://img.shields.io/github/stars/cybertec-postgresql/pg_permissions?style=social&color=white)](https://github.com/cybertec-postgresql/pg_permissions/stargazers)
+### 8. **[pg_permissions](https://github.com/cybertec-postgresql/pg_permissions)** [![GitHub_Stars](https://img.shields.io/github/stars/cybertec-postgresql/pg_permissions?style=social&color=white)](https://github.com/cybertec-postgresql/pg_permissions/stargazers)
 * **Description**: PostgreSQL extension for reviewing, managing, and auditing database permissions, including column-level SELECT/UPDATE/INSERT access grants across roles.
 * **Tech Stack**: C, PL/pgSQL
 * **License**: PostgreSQL License
 * **Best For**: PostgreSQL DBAs wanting systematic auditing and validation of column-level privileges.
 
-### 9. **[Benerator CE](https://github.com/rapiddweller/rapiddweller-benerator-ce)** [![GitHub stars](https://img.shields.io/github/stars/rapiddweller/rapiddweller-benerator-ce?style=social&color=white)](https://github.com/rapiddweller/rapiddweller-benerator-ce/stargazers)
+### 9. **[Benerator CE](https://github.com/rapiddweller/rapiddweller-benerator-ce)** [![GitHub_Stars](https://img.shields.io/github/stars/rapiddweller/rapiddweller-benerator-ce?style=social&color=white)](https://github.com/rapiddweller/rapiddweller-benerator-ce/stargazers)
 * **Description**: Enterprise test data generator and data obfuscation framework for generating, obfuscating, pseudonymizing, and migrating column data with a model-driven approach.
 * **Tech Stack**: Java
 * **License**: Apache-2.0
 * **Best For**: Organizations generating synthetic test datasets with strict column-level referential integrity and pseudonymization rules.
 
-### 10. **[dbmask](https://github.com/sealandseacat/dbmask)** [![GitHub stars](https://img.shields.io/github/stars/sealandseacat/dbmask?style=social&color=white)](https://github.com/sealandseacat/dbmask/stargazers)
+### 10. **[dbmask](https://github.com/sealandseacat/dbmask)** [![GitHub_Stars](https://img.shields.io/github/stars/sealandseacat/dbmask?style=social&color=white)](https://github.com/sealandseacat/dbmask/stargazers)
 * **Description**: End-to-end database column discovery, masking, and validation tool. Implements an auditable scan → mask → validate workflow for creating safe database copies.
 * **Tech Stack**: Go
 * **License**: Apache-2.0
 * **Best For**: DBAs and compliance teams wanting automated scan-and-mask pipelines for non-production environments.
 
-### 11. **[kibitan/masking](https://github.com/kibitan/masking)** [![GitHub stars](https://img.shields.io/github/stars/kibitan/masking?style=social&color=white)](https://github.com/kibitan/masking/stargazers)
+### 11. **[kibitan/masking](https://github.com/kibitan/masking)** [![GitHub_Stars](https://img.shields.io/github/stars/kibitan/masking?style=social&color=white)](https://github.com/kibitan/masking/stargazers)
 * **Description**: Command-line utility for generating anonymized database dumps for MySQL and MariaDB, replacing sensitive columns with custom masking formulas.
 * **Tech Stack**: Ruby
 * **License**: MIT
 * **Best For**: MySQL/MariaDB deployments requiring lightweight column masking for database backups.
 
-### 12. **[pg_anon](https://github.com/TantorLabs/pg_anon)** [![GitHub stars](https://img.shields.io/github/stars/TantorLabs/pg_anon?style=social&color=white)](https://github.com/TantorLabs/pg_anon/stargazers)
+### 12. **[pg_anon](https://github.com/TantorLabs/pg_anon)** [![GitHub_Stars](https://img.shields.io/github/stars/TantorLabs/pg_anon?style=social&color=white)](https://github.com/TantorLabs/pg_anon/stargazers)
 * **Description**: Dedicated data masking tool for PostgreSQL designed to obfuscate sensitive columns while keeping data functional for QA teams.
 * **Tech Stack**: C / PL/pgSQL
 * **License**: PostgreSQL License
 * **Best For**: Native PostgreSQL environments needing in-database column transformation.
 
-### 13. **[Maskala](https://github.com/mitchelllisle/maskala)** [![GitHub stars](https://img.shields.io/github/stars/mitchelllisle/maskala?style=social&color=white)](https://github.com/mitchelllisle/maskala/stargazers)
+### 13. **[Maskala](https://github.com/mitchelllisle/maskala)** [![GitHub_Stars](https://img.shields.io/github/stars/mitchelllisle/maskala?style=social&color=white)](https://github.com/mitchelllisle/maskala/stargazers)
 * **Description**: Privacy-engineering toolkit for Apache Spark and Scala providing configuration-driven column anonymization, encryption, and k-anonymity generalization.
 * **Tech Stack**: Scala / Apache Spark
 * **License**: Apache-2.0
 * **Best For**: Big data pipelines requiring Spark DataFrame column anonymization.
 
-### 14. **[SupaForge](https://github.com/akalsoftware/supaforge)** [![GitHub stars](https://img.shields.io/github/stars/akalsoftware/supaforge?style=social&color=white)](https://github.com/akalsoftware/supaforge/stargazers)
+### 14. **[SupaForge](https://github.com/akalsoftware/supaforge)** [![GitHub_Stars](https://img.shields.io/github/stars/akalsoftware/supaforge?style=social&color=white)](https://github.com/akalsoftware/supaforge/stargazers)
 * **Description**: Zero-trust diff and synchronization tool for Supabase & PostgreSQL. Tracks schema, custom roles, and fine-grained column-level privileges (CLS) alongside Row-Level Security (RLS) policies.
 * **Tech Stack**: TypeScript, Node.js
 * **License**: Apache-2.0
 * **Best For**: Supabase and PostgreSQL developers wanting code-defined, verifiable column security policies across environments.
 
-### 15. **[dsacp (Unified Data Security Access Control Platform)](https://github.com/turtacn/dsacp)** [![GitHub stars](https://img.shields.io/github/stars/turtacn/dsacp?style=social&color=white)](https://github.com/turtacn/dsacp/stargazers)
+### 15. **[dsacp (Unified Data Security Access Control Platform)](https://github.com/turtacn/dsacp)** [![GitHub_Stars](https://img.shields.io/github/stars/turtacn/dsacp?style=social&color=white)](https://github.com/turtacn/dsacp/stargazers)
 * **Description**: High-performance Golang proxy extending Apache Ranger to modern OLAP databases (**ClickHouse, Doris, StarRocks**). Intercepts queries, queries Ranger policies, and enforces dynamic column masking and audit logging.
 * **Tech Stack**: Go, Apache Ranger
 * **License**: Apache-2.0 / Open Source
@@ -177,7 +177,7 @@ Contributions are welcome! If you know of an open-source tool, library, or SaaS 
 
 1. Fork the repository.
 2. Add the entry to `README.md` following the existing format.
-3. For open-source projects, include: repository link, star badge, technology stack, license, and primary use case.
+3. For open-source projects, include: repository link, Stars_Badge, technology stack, license, and primary use case.
 4. Open a Pull Request with a brief explanation of the project.
 
 ---
