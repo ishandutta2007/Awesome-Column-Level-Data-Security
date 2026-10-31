@@ -32,6 +32,7 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
 
 - [Open-Source GitHub Projects](#open-source-github-projects)
@@ -42,69 +43,24 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 
 
+## Sector Overview & Market Dynamics
+
+The global data security and data access governance (DAG) sector is estimated at **$14.7B – $17.2B in 2025–2026** (scaling past $37B by 2031 at ~17% CAGR), with dedicated data access governance accounting for ~$2.1B+ and rapidly rising. The market is **moderately fragmented** rather than winner-take-all: high-scale cloud platforms (Snowflake, Databricks, Hyperscalers) capture baseline storage governance, while specialized pure-play platforms compete intensely and drive active M&A activity for cross-platform attribute-based access control (ABAC), tokenization, and dynamic runtime masking.
+
 ## SaaS/Hosted Platforms
 
-
-
-- **[Snowflake Column-Level Security](https://www.snowflake.com/)**
-
-  **Native masking policies and external tokenization** within Snowflake. **Dynamic Data Masking** applies schema-level masking policies at query runtime—authorized roles see plaintext, others see masked values . **External Tokenization** uses masking policies with external functions to detokenize at query time, ensuring sensitive data is never loaded in plaintext . **Pricing**: Included with Snowflake; external tokenization requires API integration and external function costs. **Free tier**: Trial credits. **Best for**: Snowflake customers wanting native column protection without third-party tools—**trade-off**: policies are Snowflake-specific; cross-platform governance requires external platforms.
-
-
-
-- **[Immuta](https://www.immuta.com/)**
-
-  **Data security platform** with dynamic attribute-based access control (ABAC) reflected as native controls in Databricks, Snowflake, and other platforms. Discovers and tags sensitive data via Unity Catalog APIs, applies column masking and row-level security, and provides user activity monitoring . **Pricing**: Quote-only. **Free tier**: None. **Best for**: Databricks and Snowflake customers wanting centralized ABAC policies across platforms—**trade-off**: enterprise pricing; platform-specific integrations.
-
-
-
-- **[Privacera](https://www.privacera.com/)**
-
-  **Policy-driven encryption and masking** via Privacera Encryption Gateway (PEG). Supports format-preserving encryption (FPE), tokenization, masking, and hashing with native UDFs for Databricks, Snowflake, Redshift, and Trino. Integrates with AWS KMS and Azure Key Vault for key management . **Pricing**: Quote-only. **Free tier**: None. **Best for**: organizations needing field-level encryption with format preservation across hybrid data platforms.
-
-
-
-- **[Satori](https://www.satori.ai/)** (Acquired by Commvault)
-
-  **Universal Data Access Service** for column-level security. **Note**: Satori was **acquired** and is now part of Commvault's data security offerings . **Pricing**: N/A for standalone. **Free tier**: N/A. **Best for**: historical reference—evaluate Commvault's integrated offering instead.
-
-
-
-- **[Cyral](https://cyral.com/)** (Varonis)
-
-  **Data security platform** with Data Map for labeling columns across databases. Policies control access and log activity based on labels rather than hardcoded table/column names . **Note**: Cyral is now part of Varonis following acquisition. **Pricing**: Bundled with Varonis. **Free tier**: None. **Best for**: organizations wanting database activity monitoring with column-level access policies.
-
-
-
-- **[Protegrity](https://www.protegrity.com/)**
-
-  **Data security platform** with Data Warehouse Protectors for column-level tokenization and encryption using User-Defined Functions. Supports Teradata and other warehouses . **Pricing**: Quote-only. **Free tier**: None. **Best for**: enterprises needing in-database tokenization without application changes.
-
-
-
-- **[Baffle](https://baffle.io/)**
-
-  **No-code data protection for databases** with column- and field-level encryption. Protects data from creation to production; masks, tokenizes, and encrypts without application changes . **Pricing**: Quote-only. **Free tier**: None. **Best for**: organizations wanting cryptographic protection of specific columns with minimal implementation effort.
-
-
-
-- **[ALTR](https://www.altr.com/)**
-
-  **Column Access Policies** with tag-based masking. Policies define user groups, affected columns/tags, and masking strategies. Tag-based policies apply automatically to all columns with a given tag . **Pricing**: Quote-only. **Free tier**: None. **Best for**: teams wanting tag-driven column masking with straightforward policy management.
-
-
-
-- **[Varonis](https://www.varonis.com/)**
-
-  **Data security platform** with column-level discovery and classification for Databricks and other platforms. Provides visibility into sensitive data, right-sizes access, and detects suspicious activity . **Pricing**: Quote-only. **Free tier**: None. **Best for**: organizations wanting discovery-first data security with column-level visibility.
-
-
-
-- **[SecuPi](https://secupi.com/)**
-
-  **Proactive data security platform** with dynamic authorization, de-identification (encryption, tokenization, masking), and column-level access control. Supports agent-based, agentless, and gateway deployment . **Pricing**: Quote-only. **Free tier**: None. **Best for**: organizations needing fine-grained ABAC with real-time enforcement across data platforms.
-
-
+| Platform | Company Size (Valuation / Revenue) | Pricing | Free Tier / Trial Limit | Key Capabilities & Best For |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Snowflake Column-Level Security](https://www.snowflake.com/)** | **~$110B–$115B** Market Cap / ~$5.9B Revenue | Dynamic Data Masking requires Enterprise Edition starting at **$3.00/credit** (Standard is $2.00/credit, Business Critical is $4.00/credit; on-demand) | **30-day free trial** with **$400 in usage credits** (trial ends after 30 days or when $400 is depleted; no forever-free tier) | Native masking policies and external tokenization within Snowflake; best for Snowflake-centric workloads without 3rd-party tools. |
+| **[Commvault / Satori](https://www.satori.ai/)** | **~$7.0B–$7.4B** Market Cap / ~$1.22B Revenue *(Commvault acquired Satori; standalone was $95k/yr avg)* | Enterprise contract starting around **$95,000/year** (Satori standalone average deal via Commvault data security offerings) | **Vendor-guided trial / interactive sandbox** (no self-serve forever-free tier) | Universal Data Access Service providing dynamic masking, access workflows, and discovery across multi-cloud stores. |
+| **[Varonis](https://www.varonis.com/)** | **~$5.6B** Market Cap / ~$688M Revenue | Starting around **$55 – $95/user/year** (base Microsoft 365 coverage) to **$80 – $140/user/year** (multi-platform DSPM/coverage); typical enterprise minimums ~$15k–$50k/yr | **30-day free trial** (enterprise evaluation/guided data risk assessment; no forever-free tier) | Data security platform with column-level discovery, classification, and permissions right-sizing. |
+| **[Immuta](https://www.immuta.com/)** | **~$1.0B** Valuation (Series E Unicorn) / ~$23M+ ARR | Annual contract pricing starting at **$96,000/year** (baseline AWS Marketplace 12-month tier covering 960 Immuta Units) | **14-day free trial** (available via AWS Marketplace / guided sandbox; no forever-free tier) | Dynamic attribute-based access control (ABAC) natively translated into Snowflake, Databricks, Redshift, and Starburst. |
+| **[Privacera](https://www.privacera.com/)** | **~$250M–$500M** Est. Valuation / ~$38.5M Revenue | Foundation package starting at **$100,000/year** (12-month Data Access Governance Starter Pack on AWS Marketplace) | **30-day free trial** on cloud environments (PrivaceraCloud evaluation; no forever-free tier) | Policy-driven encryption and masking via PEG (Privacera Encryption Gateway); format-preserving encryption (FPE) and tokenization. |
+| **[ALTR](https://www.altr.com/)** | **~$100M–$250M** Est. Valuation / ~$8M–$10M Revenue | Paid tier starts at **$10/data user/month** (Enterprise plan; custom quotes for enterprise scale) | **Free Forever Tier**: **$0/month** (up to 3 connected databases, full data classification, and dynamic masking via Snowflake Partner Connect) | Tag-based dynamic column masking and data governance with native Snowflake & cloud warehouse integration. |
+| **[Baffle](https://baffle.io/)** | **~$100M–$250M** Est. Valuation / ~$3.3M ARR | Instance-based metered pricing from **~$0.40 – $1.50/hour** (depending on EC2 instance size e.g. t3.large to m5.xlarge; enterprise contracts via private offer) | **30-day free trial** (available on AWS Marketplace for RDS, Aurora, and S3; excludes underlying AWS infra costs) | No-code cryptographic protection; field- and column-level format-preserving encryption without application code changes. |
+| **[Protegrity](https://www.protegrity.com/)** | **~$50.7M** Est. Revenue (~$25M–$100M industry range) | Enterprise contract-based units; minimum annual deployments typically start at **~$50,000 – $100,000/year** via AWS private offers | **30-day free trial** on select modules (e.g., Cloud Protect for S3; enterprise PoC on request; no forever-free tier) | Enterprise-grade tokenization and format-preserving encryption using warehouse User-Defined Functions (UDFs). |
+| **[Cyral](https://cyral.com/)** | *Acquired by Varonis ($5.6B Market Cap)* | Base plans start at **$50/month** (scales to ~$500/database/month for advanced monitoring and fine-grained controls) | **Free Forever Plan**: limited to **1 single user and basic discovery on 1 database**; plus a 14-day full feature trial | Database security and activity monitoring proxy enforcing column-level access controls and granular query policies. |
+| **[SecuPi](https://secupi.com/)** | Bootstrapped / Est. **~$3.4M–$8.4M** Revenue | Enterprise annual subscriptions; minimum 12-month commitments typically starting at **~$30,000 – $60,000/year** based on protected data sources | **30-day free trial** (available for Policy Administration Server on AWS Marketplace; no forever-free tier) | Proactive dynamic authorization, de-identification (FPE, tokenization, masking), and real-time column-level policy enforcement. |
 
 ## Open-Source GitHub Projects
 
